@@ -73,11 +73,15 @@ Building is really easy, just run `npm run build` which will fire up `webpack` w
 Currently, all the testing is manual. If anyone wants to contribute, automated UI testing would be a great place to do that. All pull requests are welcome.
   
 Once all the dependencies are installed, if you run `npm start` it starts `webpack-dev-server` which has live reload, all the compilation and everything needed for you to test the application while developing on a browser.
+
+## Issues
+
+Please submit issues through the github issue tracker.
   
 ##  Contributing
 
 All pull requests are welcome. Here are some things that you could contribute to:
 
 1.  Automated client side tests.
-2.  Better mobile compatibility.
+2.  Mobile compatibility. This library is not mobile compatible yet because there is no reliable way to handle text input events through virtual keyboards on phones. This is a work in progress but any contribution regarding this would be appreciated.
 3.  Better configuration of the UI.

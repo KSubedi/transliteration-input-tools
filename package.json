@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server",
+        "start": "webpack-dev-server --host 0.0.0.0",
         "build": "webpack --config webpack.prod.js"
     },
     "author": "",
