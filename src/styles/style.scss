@@ -1,0 +1,55 @@
+@import "./loading.scss";
+
+.ks-input-suggestions{
+    background-color: rgb(240, 240, 240);
+    color: rgb(82, 82, 82);
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    overflow : auto;
+
+    .suggestion-list{
+        padding: 5px;
+        padding-top: 15px;
+
+        div{
+            padding: 5px;
+            padding-left: 10px;
+        }
+
+        .suggestion-div.active{
+            background-color: rgb(140, 190, 255);
+            border-radius: 5px;
+            color: white;
+        }
+
+        .suggestion-div:hover{
+            background-color: rgb(182, 213, 255);
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+
+    .suggestion-input{
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .suggestion-input:focus {
+        outline-width: 0;
+    }
+
+    .loading-box{
+        text-align: center;
+        height: 20px;
+        position: absolute;
+        right: 10px;
+        left: 10px;
+        top: -5px;
+    }
+}
+
+.hidden{
+    display: none;
+}

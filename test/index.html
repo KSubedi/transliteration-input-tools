@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transliteration Typing Test</title>
+    <!-- <script type="text/javascript" src="../dist/transliteration-input.bundle.js"></script> -->
+    <script type="text/javascript" src="./transliteration-input.bundle.js"></script>
+</head>
+<body>
+    <h2>No transliteration.</h2>
+    <textarea rows="10" cols="50" style="margin: 50px;"></textarea>
+    <h2>Arabic transliteration on input.</h2>
+    <input id="testinput1"></input>
+    <h2>No transliteration (disabled).</h2>
+    <textarea id="testinput2" rows="10" cols="50" style="margin: 50px;"></textarea>
+    <h2>Nepali transliteration.</h2>
+    <textarea id="testinput3" rows="10" cols="50" style="margin: 50px;"></textarea>
+    
+    <script type="text/javascript">
+        let input1 = document.getElementById("testinput1");
+        let input2 = document.getElementById("testinput2");
+        let input3 = document.getElementById("testinput3");
+        enableTransliteration(input1, "ar");
+        enableTransliteration(input2);
+        disableTransliteration(input2);
+        enableTransliteration(input3, "ne");
+    </script>
+</body>
+</html>
