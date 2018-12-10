@@ -11,5 +11,7 @@ export function disableTransliteration(input: any){
     input.parentNode.replaceChild(newInput, input);
 }
 
-window["enableTransliteration"] = enableTransliteration;
-window["disableTransliteration"] = disableTransliteration;
+if(window){
+    window["enableTransliteration"] = enableTransliteration;
+    window["disableTransliteration"] = disableTransliteration;
+}

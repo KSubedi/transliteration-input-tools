@@ -2,7 +2,7 @@
     "name": "transliteration-input-tools",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/transliteration-input-tools.bundle.js",
+    "main": "src/index.ts",
     "scripts": {
         "start": "webpack-dev-server --host 0.0.0.0",
         "build": "webpack --config webpack.prod.js"
