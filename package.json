@@ -10,6 +10,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "textarea-caret": "git+https://github.com/component/textarea-caret-position.git"
     },
     "devDependencies": {
         "@types/es6-promise": "^3.3.0",
@@ -20,7 +21,6 @@
         "node-sass": "^4.11.0",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",
-        "textarea-caret": "git+https://github.com/component/textarea-caret-position.git",
         "ts-loader": "^5.3.1",
         "ts-node": "^7.0.1",
         "typescript": "^3.2.2",
