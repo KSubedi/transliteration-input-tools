@@ -1,14 +1,14 @@
 {
-    "name": "nepali-input",
+    "name": "transliteration-input-tools",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/transliteration-input-tools.bundle.js",
     "scripts": {
         "start": "webpack-dev-server --host 0.0.0.0",
         "build": "webpack --config webpack.prod.js"
     },
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
     },
     "devDependencies": {
