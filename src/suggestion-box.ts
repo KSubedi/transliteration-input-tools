@@ -163,7 +163,7 @@ export class SuggestionBox {
             suggestionDiv.classList.add("active");
         }
 
-        this.suggestionsList.append(suggestionDiv);
+        this.suggestionsList.appendChild(suggestionDiv);
       });
     }
   }
