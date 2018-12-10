@@ -4,6 +4,8 @@ module.exports = {
     mode: "production",
     entry: "./src/index.ts",
     output: {
+        library: 'transliteration-input-tools',
+        libraryTarget: 'umd',  
         path: path.resolve(__dirname, "dist"),
         filename: "transliteration-input.bundle.js"
     },

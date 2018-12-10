@@ -6,6 +6,8 @@ module.exports = {
     mode: "development",
     entry: "./src/index.ts",
     output: {
+        library: 'transliteration-input-tools',
+        libraryTarget: 'umd',      
         path: path.resolve(__dirname, "dev"),
         filename: "transliteration-input.bundle.js"
     },
