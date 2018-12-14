@@ -13,15 +13,10 @@ export class EventHandler{
     }
 
     handleKeyPress(){
+        let allChars = "abcdefghijklmnopqrstuvwxyz.".split("");
+
         return function(event: KeyboardEvent){
-            if (
-                event.which !== 0 &&
-                !event.ctrlKey &&
-                !event.metaKey &&
-                !event.altKey && 
-                event.key !== "Enter" && 
-                event.key !== " "
-            ) {
+            if (allChars.indexOf(event.key) !== -1) {
                 // Give the event to the suggestions box
                 this.transliterationProvider.suggestionBox.startSuggestions(event.key);
                 event.preventDefault();
