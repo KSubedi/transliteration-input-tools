@@ -83,6 +83,7 @@ export class SuggestionBox {
             default:
                 this.updateDisplayState();
                 this.loadingBox.classList.remove("hidden");
+                this.updateSuggestions([this.suggestionInputBox.value]);
                 let apiResults = await this.transliterationProvider.apiClient.getSuggestions(this.suggestionInputBox.value);
                 
                 // Make sure to use the data from the latest api call only
