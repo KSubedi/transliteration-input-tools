@@ -16,17 +16,17 @@
         "@types/es6-promise": "^3.3.0",
         "concurrently": "^4.1.0",
         "copy-webpack-plugin": "^4.6.0",
-        "css-loader": "^2.0.0",
+        "css-loader": "^2.1.0",
         "file-loader": "^2.0.0",
         "node-sass": "^4.11.0",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",
-        "ts-loader": "^5.3.1",
+        "ts-loader": "^5.3.3",
         "ts-node": "^7.0.1",
         "typescript": "^3.2.2",
-        "webpack": "^4.27.1",
-        "webpack-cli": "^3.1.2",
-        "webpack-dev-server": "^3.1.10",
+        "webpack": "^4.28.4",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.14",
         "write-file-webpack-plugin": "^4.5.0"
     }
 }
