@@ -13,7 +13,7 @@ export class EventHandler{
     }
 
     handleKeyPress(){
-        let allChars = "abcdefghijklmnopqrstuvwxyz.".split("");
+        let allChars = "abcdefghijklmnopqrstuvwxyz.1234567890".split("");
 
         return function(event: KeyboardEvent){
             if (allChars.indexOf(event.key) !== -1) {
